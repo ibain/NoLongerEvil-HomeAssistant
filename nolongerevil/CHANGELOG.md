@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.13] - 2026-07-29
+
+### Fixed
+- Restore climate `fan_modes` so HomeKit can nest fan under the thermostat
+
 ## [0.0.12] - 2026-07-29
 
 ### Fixed
