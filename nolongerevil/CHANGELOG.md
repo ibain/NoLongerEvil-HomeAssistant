@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.17] - 2026-07-29
+
+### Fixed
+- `fan_mode` is Nest fan **policy** only (`auto` / timer `on`) — physical blower stays on `fan_running` / binary_sensor for HomeKit FanV2 Active via [ha-homekit-nest-fan](https://github.com/ibain/ha-homekit-nest-fan)
+- Publish climate `json_attributes` (`fan_running`) so HA climate updates when blower flips
+
 ## [0.0.16] - 2026-07-29
 
 ### Fixed
