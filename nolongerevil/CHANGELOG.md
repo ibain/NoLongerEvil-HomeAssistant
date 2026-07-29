@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.16] - 2026-07-29
+
+### Fixed
+- Restore climate fan_modes to `auto`/`on` so HomeKit shows nested fan under thermostat again
+
 ## [0.0.15] - 2026-07-29
 
 ### Fixed
