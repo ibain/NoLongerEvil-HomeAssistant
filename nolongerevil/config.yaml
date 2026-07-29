@@ -2,7 +2,7 @@
 name: "NoLongerEvil HomeAssistant"
 description: "NLE Nest API - Self-hosted Nest thermostat control"
 url: "https://github.com/codykociemba/NoLongerEvil-HomeAssistant"
-version: "0.0.8"
+version: "0.0.9"
 slug: "nolongerevil"
 init: false
 hassio_api: true
@@ -33,6 +33,7 @@ options:
   mqtt_port: 1883
   mqtt_user: ""
   mqtt_password: ""
+  mqtt_minimal_discovery: false
 schema:
   api_origin: str
   entry_key_ttl_seconds: int
@@ -42,3 +43,4 @@ schema:
   mqtt_port: port?
   mqtt_user: str?
   mqtt_password: password?
+  mqtt_minimal_discovery: bool
