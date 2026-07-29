@@ -2,7 +2,7 @@
 name: "NoLongerEvil HomeAssistant (eco fork)"
 description: "NLE Nest API - Self-hosted Nest thermostat control (ibain eco/HomeKit fork)"
 url: "https://github.com/ibain/NoLongerEvil-HomeAssistant"
-version: "0.0.9"
+version: "0.0.10"
 slug: "nolongerevil_eco"
 init: false
 hassio_api: true
