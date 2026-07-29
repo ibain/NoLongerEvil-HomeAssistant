@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.12] - 2026-07-29
+
+### Fixed
+- HA / HomeKit **Auto** (`heat_cool`) mode now applies to Nest (was silently ignored; heat/cool worked)
+
 ## [0.0.11] - Jul 29, 2026
 
 ### Supervisor refresh bump
