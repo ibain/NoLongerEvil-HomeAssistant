@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.15] - 2026-07-29
+
+### Fixed
+- Add-on crash on start (circular import from fan capability helper)
+
 ## [0.0.14] - 2026-07-29
 
 ### Fixed
