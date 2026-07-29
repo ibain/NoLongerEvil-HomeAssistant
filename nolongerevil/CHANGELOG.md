@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.11] - Jul 29, 2026
+
+### Supervisor refresh bump
+
+Same Eco ownership / auto-register fix as 0.0.10. New version so Home Assistant Add-on Store picks up the update when 0.0.10 was already on `main` but never shown as Latest.
+
+---
+
+## [0.0.10] - Jul 29, 2026
+
+### Eco ownership + HA naming
+
+Fresh add-on DBs can auto-register Nest Eco so it works without a manual ownership dance. HA UI shows a clear **Eco** switch (not Leaf).
+
+### Added / Fixed
+
+- **Eco auto-register**: open-mode Eco ownership so Nest Eco works on a fresh add-on DB
+- **Eco vs Leaf naming**: Home Assistant entity/label uses Eco instead of Leaf
+- Pins SelfHosted submodule to the open-mode Eco ownership fix
+
+---
+
+## [0.0.9] - Jul 2026
+
+### ibain eco fork metadata
+
+- Renamed add-on branding/slug for the ibain eco/HomeKit fork (`nolongerevil_eco`)
+- Optional `mqtt_minimal_discovery` add-on option
+
+---
+
 ## [0.0.8] - Mar 31, 2026
 
 ### Network Scanner and Device Credentials
