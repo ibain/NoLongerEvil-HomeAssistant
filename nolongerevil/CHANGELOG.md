@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.14] - 2026-07-29
+
+### Fixed
+- HomeKit nested fan no longer looks permanently On while idle (report `off` unless blower/timer active)
+
 ## [0.0.13] - 2026-07-29
 
 ### Fixed
