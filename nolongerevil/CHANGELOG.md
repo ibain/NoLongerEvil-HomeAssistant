@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.18] - 2026-09-23
+
+### Fixed
+- Thermostat availability is no longer forced to `online` whenever the add-on reconnects to MQTT; HA now shows the thermostat unavailable when it has stopped checking in, instead of accepting commands it never receives
+- Each HA command is executed once (overlapping MQTT subscriptions delivered every command twice)
+
 ## [0.0.17] - 2026-07-29
 
 ### Fixed
