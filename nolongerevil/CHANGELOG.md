@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.22] - 2026-09-24
+
+### Changed
+- Server is now upstream plus the open upstream PRs (#39, #41-#44) instead of the fork's own changes (branch `addon`)
+- Occupancy no longer reports away during manual Eco; fan mode, HVAC action and has_fan detection follow upstream
+- Temperature, humidity and battery are regular sensors again (not diagnostic)
+
+### Removed
+- `mqtt_minimal_discovery` option
+- `fan_running` climate attribute (ha-homekit-nest-fan uses `binary_sensor.nest_*_fan` instead)
+
 ## [0.0.21] - 2026-09-24
 
 ### Changed
