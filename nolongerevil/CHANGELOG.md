@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.21] - 2026-09-24
+
+### Changed
+- HA Auto (heat_cool) mode now uses the same fix as the upstream PR; an unknown mode is rejected instead of turning the thermostat off
+
 ## [0.0.20] - 2026-09-24
 
 ### Fixed
