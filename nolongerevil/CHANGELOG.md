@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.19] - 2026-09-23
+
+### Fixed
+- Eco switch and preset follow the thermostat when it leaves Eco on its own (setpoint change from HomeKit, HA, the Nest dial, or an automation). Previously HA kept showing Eco on / preset `away` after the thermostat had already returned to its schedule
+
 ## [0.0.18] - 2026-09-23
 
 ### Fixed
