@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.20] - 2026-09-24
+
+### Fixed
+- Eco switch follows the Eco/Away preset; it no longer turns on just because the Nest leaf is lit
+- Choosing the "None" preset in HA now leaves Eco (it was ignored)
+
 ## [0.0.19] - 2026-09-23
 
 ### Fixed
